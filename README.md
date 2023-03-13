@@ -1,2 +1,3 @@
-# Solarvito-HTML-layout
-Homework
+## Solarvito-HTML-layout
+
+Домашняя работа по вёрстке главной страницы доски объявлений
