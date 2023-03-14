@@ -1,10 +1,5 @@
 html {
   box-sizing: border-box;
-}
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-body {
   /* Главная */
   /* Auto layout */
   display: flex;
@@ -17,6 +12,12 @@ body {
   height: 1784px;
   /* Light / Forms / Background */
   background: #FFFFFF;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
 }
 .container {
   max-width: 1296px;
@@ -81,6 +82,7 @@ body {
   gap: 222px;
   width: 1296px;
   height: 36px;
+  margin-top: 8px;
   /* Inside auto layout */
   flex: none;
   order: 1;
@@ -211,6 +213,7 @@ body {
   gap: 24px;
   width: 1296px;
   height: 36px;
+  margin-top: 24px;
   /* Inside auto layout */
   flex: none;
   order: 2;
@@ -218,9 +221,10 @@ body {
   z-index: 1;
 }
 .header__lower-header {
-  /* Доска объявлений */
+  /* Доска объявлений */  
   width: 284px;
-  height: 36px;  
+  height: 36px;
+  /* margin-bottom: 24px; */
   /* identical to box height, or 120% */
   /* Light/Text/Default-Text */
   color: #1E293B;
