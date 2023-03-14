@@ -138,11 +138,7 @@ body {
 }
 .header__upper-button-log-in-icon_params {
   /* Vector */
-  position: relative;
-  left: 12.5%;
-  right: 12.5%;
-  top: 12.5%;
-  bottom: 12.5%;  
+  margin: 2px; 
   /* Light / Text / Inverse-Text */
   /* background: #FFFFFF; */
   mix-blend-mode: normal;
@@ -206,11 +202,7 @@ body {
 }
 .header__upper-button-new-advertisement-icon_params {
   /* Vector   */
-  position: relative;
-  left: 25%;
-  right: 25%;
-  top: 25%;
-  bottom: 25%;
+  margin: 5px;
   /* Light / Text / Inverse-Text */
   /* background: #FFFFFF; */
 }
@@ -271,6 +263,12 @@ body {
   gap: 8px;
   width: 152px;
   height: 36px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
   /* Light/Utility/Primary */
   border: 1px solid #3B82F6;
   border-radius: 4px;
@@ -321,7 +319,7 @@ body {
   width: 824px;
   height: 36px;
   /* Light/Text/Primary-Text */
-  border: 1px solid #3B82F6;
+  /* border: 1px solid #3B82F6; */
   border-radius: 4px;
   /* Inside auto layout */
   flex: none;
@@ -378,6 +376,11 @@ body {
   gap: 8px;
   width: 91px;
   height: 36px;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
   /* Light/Utility/Primary */
   background: #3B82F6;
   border-radius: 0px 4px 4px 0px;
