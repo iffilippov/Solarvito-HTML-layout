@@ -425,7 +425,7 @@ body {
   width: 1296px;
   height: 32px;
   margin-top: 32px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   /* identical to box height, or 133% */
   /* Light/Text/Default-Text */
   color: #1E293B;
@@ -445,6 +445,7 @@ body {
   gap: 24px;
   width: 1296px;
   height: 336px;
+  margin-bottom: 32px;
   /* Inside auto layout */
   flex: none;
   order: 3;
