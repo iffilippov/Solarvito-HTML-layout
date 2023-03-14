@@ -5,7 +5,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 176px 0px 0px;
+  padding: 136px 0px 0px;
   isolation: isolate;
   position: relative;
   width: 1918px;
@@ -22,6 +22,7 @@ body {
 .container {
   max-width: 1296px;
   margin: 0 auto;
+  /* margin-top: 168px; */
 }
 :root {
   --background-color: #E8E8E8;
@@ -115,7 +116,12 @@ body {
   gap: 8px;
   width: 70px;
   height: 36px;
-  border-radius: 4px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
   /* Inside auto layout */
   flex: none;
   order: 0;
@@ -132,11 +138,11 @@ body {
 }
 .header__upper-button-log-in-icon_params {
   /* Vector */
-  /* position: absolute; */
+  position: relative;
   left: 12.5%;
   right: 12.5%;
   top: 12.5%;
-  bottom: 12.5%;
+  bottom: 12.5%;  
   /* Light / Text / Inverse-Text */
   /* background: #FFFFFF; */
   mix-blend-mode: normal;
@@ -164,6 +170,11 @@ body {
   gap: 4px;
   width: 179px;
   height: 32px;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
   /* Light/Utility/Primary */
   background: #3B82F6;
   border-radius: 4px;
@@ -195,7 +206,7 @@ body {
 }
 .header__upper-button-new-advertisement-icon_params {
   /* Vector   */
-  /* position: absolute; */
+  position: relative;
   left: 25%;
   right: 25%;
   top: 25%;
@@ -409,7 +420,9 @@ body {
 .main-header {
   /* Рекомендации для вас */
   width: 1296px;
-  height: 32px;  
+  height: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   /* identical to box height, or 133% */
   /* Light/Text/Default-Text */
   color: #1E293B;
