@@ -93,7 +93,7 @@ header {
 }
 .header-block__new-advertisement:hover {
   background: #F1F5F9;
-  color: black;
+  color: #3B82F6;
   transition: all .3s ease;
 }
 .header-block__new-advertisement svg {
@@ -128,14 +128,10 @@ header {
   padding: 7px 12px;
   margin-right: 12px;
   width: 152px;
-  height: 36px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0;
+  height: 36px;  
   color: #3B82F6;
   border: 1px solid #3B82F6;
   border-radius: 4px;
-  text-decoration: none;
 }
 .categories-search__all-categories:hover {
   background: #3B82F6;
@@ -144,6 +140,12 @@ header {
 }
 .categories-search__all-categories svg {
   margin-right: 8.63px;
+}
+.categories-search__all-categories_text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0;
+  text-decoration: none;
 }
 .categories-search__search-form {
   box-sizing: border-box;
@@ -176,6 +178,9 @@ header {
   box-shadow: 0 0 0 1px #3B82F6;
   transition: all .3s ease;
 }
+.categories-search__search-form_input:focus::placeholder {
+  color: transparent;
+}
 .categories-search__search-button {
   display: flex;
   flex-direction: row;
@@ -192,8 +197,12 @@ header {
 }
 .categories-search__search-button:hover {
   background: #F1F5F9;
-  color: black;
+  color: #3B82F6;
   transition: all .3s ease;
+}
+.categories-search__search-button_text {
+  font-weight: 500;
+  font-size: 14px;  
 }
 .categories-search__search-button svg {
   margin-left: 8px;
@@ -221,6 +230,7 @@ header {
   color: #1E293B;
 }
 .advertisments__card {
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
