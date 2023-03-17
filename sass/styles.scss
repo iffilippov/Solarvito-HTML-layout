@@ -219,6 +219,7 @@ header {
       align-items: flex-start;
       margin-bottom: 32px;  
       height: 336px;
+      border: 1px solid $inverse-text-color;
 		}
 
     &__card:hover {

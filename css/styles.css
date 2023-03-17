@@ -224,6 +224,7 @@ header {
   align-items: flex-start;
   margin-bottom: 32px;
   height: 336px;
+  border: 1px solid #FFFFFF;
 }
 .advertisments__card:hover {
   border: 1px solid #3B82F6;
